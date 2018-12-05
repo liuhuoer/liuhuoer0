@@ -1,1 +1,1 @@
-[{"title":"Hello World","date":"2018.12.05","uri":"2018/12/05/hello-world/","excerpt":""},{"title":"Hexo搭建","date":"2018.12.05","uri":"2018/12/05/hexo-begin/","excerpt":""},{"title":"安装python2和python3","date":"2018.12.05","uri":"2018/12/05/install_python2_python3/","excerpt":""}]
+[{"title":"安装python2和python3","date":"2018.12.05","uri":"2018/12/05/install_python2_python3/","excerpt":""},{"title":"Hexo搭建","date":"2018.12.05","uri":"2018/12/05/hexo-begin/","excerpt":""},{"title":"Hello World","date":"2018.12.05","uri":"2018/12/05/hello-world/","excerpt":""}]
