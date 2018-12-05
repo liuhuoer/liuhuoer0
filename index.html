@@ -3,17 +3,17 @@
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="utf-8">
   
-  <title>first &amp; next</title>
+  <title>First &amp; Next</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
-<meta property="og:title" content="first &amp; next">
+<meta property="og:title" content="First &amp; Next">
 <meta property="og:url" content="http://firstnext.cn/index.html">
-<meta property="og:site_name" content="first &amp; next">
+<meta property="og:site_name" content="First &amp; Next">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="first &amp; next">
+<meta name="twitter:title" content="First &amp; Next">
   
-    <link rel="alternate" href="/atom.xml" title="first &amp; next" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="First &amp; Next" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -57,7 +57,7 @@
     </div>
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">first &amp; next</a>
+        <a href="/" id="logo">First &amp; Next</a>
       </h1>
       
         <h2 id="subtitle-wrap">
@@ -70,124 +70,10 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hexo-begin" class="article article-type-post" itemscope="" itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/12/05/hexo-begin/" class="article-date">
-  <time datetime="2018-12-05T11:51:57.187Z" itemprop="datePublished">2018-12-05</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/12/05/hexo-begin/">Hexo搭建</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <!-- Table of Contents -->
-        
-        <h2 id="1-安装Git"><a href="#1-安装Git" class="headerlink" title="1.安装Git"></a>1.安装Git</h2><ul>
-<li><a href="https://gitforwindows.org/" target="_blank" rel="noopener">下载地址</a></li>
-<li>查看版本及验证：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git --version</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="2-安装NodeJs"><a href="#2-安装NodeJs" class="headerlink" title="2.安装NodeJs"></a>2.安装NodeJs</h2><ul>
-<li><a href="https://nodejs.org/en/" target="_blank" rel="noopener">下载地址</a></li>
-<li>查看版本及验证：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ node -v</span><br><span class="line">$ npm -v</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="3-安装Hexo"><a href="#3-安装Hexo" class="headerlink" title="3.安装Hexo"></a>3.安装Hexo</h2><ul>
-<li>创建Hexo博客配置文件夹，cd 到该文件夹下。</li>
-<li><p>安装Hexo</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm i -g hexo-cli</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>查看版本及验证</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo -v</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="4-初始化Hexo博客"><a href="#4-初始化Hexo博客" class="headerlink" title="4.初始化Hexo博客"></a>4.初始化Hexo博客</h2><ul>
-<li><p>初始化Hexo博客配置文件夹</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>安装所需组件</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>生成静态文件</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>启动服务器</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>部署网站</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="5-配置Github仓库"><a href="#5-配置Github仓库" class="headerlink" title="5.配置Github仓库"></a>5.配置Github仓库</h2><ul>
-<li>创建仓库，名称为yourname.github.io。</li>
-<li><p>在git bash中配置github账户信息。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"username"</span></span><br><span class="line">$ git config --global user.email <span class="string">"youremail@example.com"</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>创建本机密钥</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> ~/.ssh</span><br><span class="line">$ ssh-keygen -t rsa -C <span class="string">"youremail@example.com"</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>将ssh公钥存入github中：（点击头像中的setting选项，选择ssh-key，新建ssh-key，key复制id_rsa.pub中的内容）</p>
-</li>
-<li>验证密钥是否添加成功<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="6-更改配置信息"><a href="#6-更改配置信息" class="headerlink" title="6.更改配置信息"></a>6.更改配置信息</h2><ul>
-<li>在 _config.yml _文件中配置github地址<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/YourgithubName/YourgithubName.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="7-绑定个人域名"><a href="#7-绑定个人域名" class="headerlink" title="7.绑定个人域名"></a>7.绑定个人域名</h2><ul>
-<li>进入source文件夹，新建CNAME文件，加入域名，如blog.firstnext.cn</li>
-<li>在购买域名处设置DNS，添加github博客地址，其地址如下可得：<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ping yourname.github.io</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<h2 id="8-配置主题"><a href="#8-配置主题" class="headerlink" title="8.配置主题"></a>8.配置主题</h2><ul>
-<li>默认主题是landscape，其配置文件在theme文件夹中，如需更改主题可将目标主题文件存入theme中，并在_config.yml _中更改主题名为目标主题。如该页面主题为<a href="http://blog.giscafer.com/2017/04/16/cafe-release-1/" target="_blank" rel="noopener">cafe</a>，可在github中下载后，重命名为cafe，再存入theme中。更改_config.yml _中的theme为cafe。</li>
-<li><p>生成静态文件并部署</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>在github仓库中存储的文件是本地source文件夹和theme文件夹里的使用主题下的内容，博客配置文件并没有被上传到github中。</p>
-</li>
-</ul>
-<h2 id="9-Create-a-new-post"><a href="#9-Create-a-new-post" class="headerlink" title="9.Create a new post"></a>9.Create a new post</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://firstnext.cn/2018/12/05/hexo-begin/" data-id="cjpb4temg00013st9knkpoy32" class="article-share-link">分享</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
- 
-
-
-  
     <article id="post-install_python2_python3" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/12/05/install_python2_python3/" class="article-date">
-  <time datetime="2018-12-05T11:50:40.725Z" itemprop="datePublished">2018-12-05</time>
+  <time datetime="2018-12-05T14:42:32.679Z" itemprop="datePublished">2018-12-05</time>
 </a>
     
   </div>
@@ -206,40 +92,59 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <!-- Table of Contents -->
+        <p>在同一系统中使用python2及python3。（linux下未补充）</p>
         
-        <h1 id="1-Windows下"><a href="#1-Windows下" class="headerlink" title="1.Windows下"></a>1.Windows下</h1><h2 id="1-1、安装python2和python3"><a href="#1-1、安装python2和python3" class="headerlink" title="1.1、安装python2和python3"></a>1.1、安装python2和python3</h2><p>a.链接：</p>
-<ul>
-<li><a href="https://www.python.org/ftp/python/3.5.2/python-3.5.2rc1-amd64.exe" target="_blank" rel="noopener">python3.5.2</a></li>
-<li><a href="https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi" target="_blank" rel="noopener">python2.7.9</a></li>
-</ul>
-<p>b.配置环境变量</p>
-<ul>
-<li>（假定python2安装目录为D:\Python\python27,配置python3类似）</li>
-<li>D:\Python\python27</li>
-<li>D:\Python\python27\Scripts</li>
-</ul>
-<p>c.找到python3 IDLE安装位置，发送快捷方式到桌面</p>
-<h2 id="1-2、修改python-exe名字"><a href="#1-2、修改python-exe名字" class="headerlink" title="1.2、修改python.exe名字"></a>1.2、修改python.exe名字</h2><ul>
-<li>修改python2.7.9和python3.5.2安装目录中的 python.exe和pythonw.exe的名称为python2.exe、pythonw2.exe和python3.exe、pythonw3.exe。</li>
-<li>（cmd命令，输入python2即可运行python2.7.9版本，python3即可运行python3.5.2鞍姹荆?</li>
-</ul>
-<h2 id="1-3、pip2-和-pip3设置"><a href="#1-3、pip2-和-pip3设置" class="headerlink" title="1.3、pip2 和 pip3设置"></a>1.3、pip2 和 pip3设置</h2><p>python安装包需要用到包管理工具pip，由pip安装的包的位置（根据个人安装）目录如下：D:\Python\Python37\Lib\site-packages</p>
-<ul>
-<li><p>在DOS命令框输入命令，python3 -m pip install –upgrade pip –force-reinstall，显示重新安装成功。</p>
-</li>
-<li><p>在DOS命令框输入命令，python2 -m pip install –upgrade pip –force-reinstall，显示重新安装成功。【1】</p>
-</li>
-</ul>
-<h1 id="2、Linux下"><a href="#2、Linux下" class="headerlink" title="2、Linux下"></a>2、Linux下</h1><p>参考文献：</p>
-<ol>
-<li><a href="https://blog.csdn.net/qiang12qiang12/article/details/53239866" target="_blank" rel="noopener">https://blog.csdn.net/qiang12qiang12/article/details/53239866</a></li>
-</ol>
-
+          <p class="article-more-link">
+            <a href="/2018/12/05/install_python2_python3/#more">继续阅读全文 »</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://firstnext.cn/2018/12/05/install_python2_python3/" data-id="cjpb4tem100003st9d9cggqp9" class="article-share-link">分享</a>
+      <a data-url="http://firstnext.cn/2018/12/05/install_python2_python3/" data-id="cjpbabw7700000ct9lnwyhc7j" class="article-share-link">分享</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+ 
+
+
+  
+    <article id="post-hexo-begin" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/12/05/hexo-begin/" class="article-date">
+  <time datetime="2018-12-05T14:41:31.583Z" itemprop="datePublished">2018-12-05</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/12/05/hexo-begin/">Hexo搭建</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Hexo 静态站点的搭建… …（未完待续）</p>
+        
+          <p class="article-more-link">
+            <a href="/2018/12/05/hexo-begin/#more">继续阅读全文 »</a>
+          </p>
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://firstnext.cn/2018/12/05/hexo-begin/" data-id="cjpbabw7h00010ct9utc8uw7n" class="article-share-link">分享</a>
       
       
       
@@ -254,7 +159,7 @@
     <article id="post-hello-world" class="article article-type-post" itemscope="" itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/12/05/hello-world/" class="article-date">
-  <time datetime="2018-12-05T07:05:09.240Z" itemprop="datePublished">2018-12-05</time>
+  <time datetime="2018-12-05T14:41:27.146Z" itemprop="datePublished">2018-12-05</time>
 </a>
     
   </div>
@@ -273,24 +178,16 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <!-- Table of Contents -->
+        <p>刚开始还是应该喝点汤。</p>
         
-        <h2 id="1-目的"><a href="#1-目的" class="headerlink" title="1.目的"></a>1.目的</h2><p>整个世界终于清净了。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">对比跑在我前面的人，也许我是晚了，但是对比明天才开始跑的我，今天就出发的我，他一定很羡慕。</span><br></pre></td></tr></table></figure></p>
-<h2 id="2-问题"><a href="#2-问题" class="headerlink" title="2.问题"></a>2.问题</h2><p>看到很多人包括我自己常犯的毛病是写的糙，最后成了垃圾堆确实挺遗憾。很多人会很长时间才更新一次，一直更新确实挺难。看到好多写的不错的站点停更了，也会觉得可惜。</p>
-<p>希望自己尽可能写的认真，写的多点，写的久些。</p>
-<h2 id="3-Quick-Start"><a href="#3-Quick-Start" class="headerlink" title="3.Quick Start"></a>3.Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+          <p class="article-more-link">
+            <a href="/2018/12/05/hello-world/#more">继续阅读全文 »</a>
+          </p>
+        
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://firstnext.cn/2018/12/05/hello-world/" data-id="cjpb4temg00023st95a90yury" class="article-share-link">分享</a>
+      <a data-url="http://firstnext.cn/2018/12/05/hello-world/" data-id="cjpbabw7k00020ct9hul4h717" class="article-share-link">分享</a>
       
       
       
@@ -342,11 +239,11 @@
       <ul>
         
           <li>
-            <a href="/2018/12/05/hexo-begin/">Hexo搭建</a>
+            <a href="/2018/12/05/install_python2_python3/">安装python2和python3</a>
           </li>
         
           <li>
-            <a href="/2018/12/05/install_python2_python3/">安装python2和python3</a>
+            <a href="/2018/12/05/hexo-begin/">Hexo搭建</a>
           </li>
         
           <li>
